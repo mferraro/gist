@@ -1,0 +1,19 @@
+[user]
+        name = Matteo Ferraro
+        email = matteoferraro77@gmail.com
+[alias]
+  ci = commit
+  st = status -sb
+  co = checkout
+  b = branch
+  gl = log --pretty=format:\"%C(red)%h%Creset %C(green)%ad%Creset | %s%C(yellow)%d%Creset %C(bold blue)[%an]%Creset\" --graph --date=short
+  dlog = log --oneline --decorate
+  type = cat-file -t
+  dump = cat-file -p
+[color]
+  ui = true
+[core]
+  excludesfile = /home/mferraro/.gitignore
+  editor = nano
+#[push]
+#  default = tracking
